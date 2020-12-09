@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Shortest Driving Path</h1>
+    <p>Please enter the adresses you want to visit</p>
+    <div id="adresses">
+        <div id="option1">
+            <input id="input1" class="controls" type="text" placeholder="Start typing here"/>
+            <button id="btn1" class="btn" onclick="newAddressField('1')">+</button>
+        </div>
+    </div>
+    <div id="map"></div>
+    <button id="submit" class="submit" type="submit" onclick="saveToArray()">Submit</button>
+    <div id="msg"></div>
+</body>
+</html>
